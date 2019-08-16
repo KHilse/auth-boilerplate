@@ -1,0 +1,62 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: darkgray;
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+
+nav ul li a {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: orange;
+}
+
+#login-form {
+	margin: 0 auto;
+	padding: 5px;
+	height: 30vh;
+	width: 30vw;
+	border: 3px solid darkgray;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 12px;
+	background-image: linear-gradient(lightgray, gray);
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+#login-form form {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+#login-form form input {
+	max-width: 30%;
+}
+
+#login-form #login-button {
+	max-width: 80px;
+}
